@@ -12,7 +12,7 @@ const Team = () => {
         title="Ahmed Al Dabbas"
       />
       <div className="container">
-        <h5>Ahmed Al Dabbas</h5>
+        <h5>Adam Sandbox</h5>
         <p>Architect & Engineer</p>
       </div>
     </div>

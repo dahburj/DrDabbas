@@ -29,15 +29,17 @@ export default function ImgMediaCard() {
           component="img"
           height="180"
           image="https://images.unsplash.com/photo-1577071382416-7d1901914855?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-          title="Mohamed Al Dabbas"
+          title="ADHD"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Mohamed Al Dabbas
+            ADHD
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            He has got the Jordanian Board in Psychiatry 1993, MRCPsych pt
-            1,1997 The Royal College Psychiatrists, London.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit
+            anim id est laborum.
           </Typography>
         </CardContent>
       </CardActionArea>

@@ -27,7 +27,7 @@ const IndexPage = () => (
       <Header />
       <div id="scroll">
         <div className="firstimg">
-          <div className="h1New">Dabbas Psychiatry Clinic</div>
+          <div className="h1New">Modern Day Clinic</div>
           <div className="contact-head"></div>
         </div>
       </div>
@@ -50,10 +50,10 @@ const IndexPage = () => (
         <div className="secondimg">
           <span>Contact Us</span>
           <div className="cat">
-            <a href="#">Name: Dabbas Psychiatry Clinic</a>
-            <a href="#">Address: Ibn Khaldoun St., Amman</a>
+            <a href="#">Name: Modern Day Clinic</a>
+            <a href="#">Address: 1234 California, LA</a>
             <a href="#">Email: email@example.com</a>
-            <a href="#">Phone: 079 715 7590</a>
+            <a href="#">Phone: (312)-232-2334</a>
           </div>
         </div>
       </div>
@@ -76,20 +76,10 @@ const IndexPage = () => (
         <span>Testimonials</span>
         <div className="about-us">
           <div className="pNew">
-            Professional Background Dr. Mohmed Al-Dabbas Consultant
-            Psychiatrist. He has got the Jordanian Board in Psychiatry 1993,
-            MRCPsych pt 1,1997 The Roçyal College Psychiatrists, London. He has
-            got Diploma In Clinical Psychiatry, 26.05.1997, The Royal College of
-            Physicians of Ireland and Diploma In Psychological Medicine from the
-            Royal College of Surgeons/ Dublin. He was a director of Psychiatric
-            Unit at Jordanian Royal Medical Services. He was the president of
-            the Jordan Association of Psychiatrists in 2008 - 2010. He is
-            Examiner in the Jordanian Board of Psychiatry- General Medical
-            Council of Jordan, he worked as a psychiatrist in London from 1994 -
-            1999. Dr Al Dabbas is the founder and CEO of Alrawabi Medical
-            Magazine. He has got long experience in treating all psychological
-            disorders, he is one of the elite doctors in psychiatric field in
-            Jordan and in the Middle East.
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat." <strong>~ Amanda</strong>
           </div>
         </div>
       </div>
