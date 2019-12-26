@@ -25,22 +25,51 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
+
+      <main>{children}</main>
+      <footer>
+        <div className="footer-flex">
+          <div className="flex container">
+            <div className="footer-about">
+              <h4>About Exclusive</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                facere laudantium magnam voluptatum autem. Amet aliquid nesciunt
+                veritatis aliquam.
+              </p>
+            </div>
+
+            <div className="footer-quick-links">
+              <h4>Quick Links</h4>
+              <div>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact Us</a>
+              </div>
+            </div>
+            <div className="media-links">
+              <h4 className="follow-us">Follow Us</h4>
+              <div>
+                <a href="#">
+                  <span className="fas fa-facebook-f"></span>
+                </a>
+                <a href="#">
+                  <span className="fas fa-twitter"></span>
+                </a>
+                <a href="#">
+                  <span className="fas fa-instagram"></span>
+                </a>
+                <a href="#">
+                  <span className="fas fa-linkedin-in"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      © {new Date().getFullYear()}, All Rights Reserved. Dabbas Psychiatry Clinic
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
     </>
   )
 }

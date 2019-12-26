@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "@material-ui/core": "^4.7.0",
     "@material-ui/icons": "^4.5.1",
     "@material-ui/lab": "^4.0.0-alpha.33",
@@ -27,6 +29,8 @@
     "react": "^16.11.0",
     "react-color": "^2.17.3",
     "react-dom": "^16.11.0",
+    "react-gesture-gallery": "^1.1.0",
+    "react-gesture-responder": "^2.1.0",
     "react-helmet": "^5.2.1",
     "save": "^2.4.0",
     "websocket.io": "^0.2.1",
