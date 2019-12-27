@@ -6,6 +6,8 @@
  */
 
 import React from "react"
+import ReactDOM from 'react-dom';
+import { SocialIcon } from 'react-social-icons';
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -31,7 +33,7 @@ const Layout = ({ children }) => {
         <div className="footer-flex">
           <div className="flex container">
             <div className="footer-about">
-              <h4><strong>About Exclusive</strong></h4>
+              <h4><strong>About Us</strong></h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
                 facere laudantium magnam voluptatum autem. Amet aliquid nesciunt
@@ -51,18 +53,9 @@ const Layout = ({ children }) => {
             <div className="media-links">
               <h4 className="follow-us"><strong>Follow Us</strong></h4>
               <div>
-                <a href="#">
-                  <span className="fas fa-facebook-f"></span>
-                </a>
-                <a href="#">
-                  <span className="fas fa-twitter"></span>
-                </a>
-                <a href="#">
-                  <span className="fas fa-instagram"></span>
-                </a>
-                <a href="#">
-                  <span className="fas fa-linkedin-in"></span>
-                </a>
+                <SocialIcon network="facebook" />
+                <SocialIcon network="twitter" />
+                <SocialIcon url="http://linkedin.com/in/jaketrent" />
               </div>
             </div>
           </div>
