@@ -12,8 +12,9 @@ const Team = () => {
         title="Ahmed Al Dabbas"
       />
       <div className="container">
-        <h5>Adam Sandbox</h5>
-        <p>Architect & Engineer</p>
+        <h5>ADHD</h5>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       </div>
     </div>
   )

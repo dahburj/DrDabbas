@@ -29,11 +29,11 @@ export default function ImgMediaCard() {
           component="img"
           height="180"
           image="https://images.unsplash.com/photo-1577071382416-7d1901914855?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-          title="ADHD"
+          title="Mike Smith"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            ADHD
+            Mike Smith
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Duis aute irure dolor in reprehenderit in voluptate velit esse

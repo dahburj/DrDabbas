@@ -57,30 +57,26 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      <Slider />
-      <div className="Agents">
-        <h1>Videos</h1>
-        <Cards />
-        <Cards />
-        <Cards />
-      </div>
       <div className="Team">
-        <h1>Our Team</h1>
+        <h1>Videos</h1>
         <Team />
         <Team />
         <Team />
         <Team />
       </div>
-      <div className="fourthimg"></div>
+      <div className="Agents">
+        <h1>Our Team</h1>
+        <Cards />
+        <Cards />
+        <Cards />
+      </div>
       <div className="thirdimg">
         <span>Testimonials</span>
-        <div className="about-us">
-          <div className="pNew">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat." <strong>~ Amanda</strong>
-          </div>
+        <div className="pNew">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat." <strong>~ Amanda</strong>
         </div>
       </div>
     </body>

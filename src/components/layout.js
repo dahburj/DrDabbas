@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
         <div className="footer-flex">
           <div className="flex container">
             <div className="footer-about">
-              <h4>About Exclusive</h4>
+              <h4><strong>About Exclusive</strong></h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
                 facere laudantium magnam voluptatum autem. Amet aliquid nesciunt
@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
             </div>
 
             <div className="footer-quick-links">
-              <h4>Quick Links</h4>
+              <h4><strong>Quick Links</strong></h4>
               <div>
                 <a href="#">About Us</a>
                 <a href="#">Services</a>
@@ -49,7 +49,7 @@ const Layout = ({ children }) => {
               </div>
             </div>
             <div className="media-links">
-              <h4 className="follow-us">Follow Us</h4>
+              <h4 className="follow-us"><strong>Follow Us</strong></h4>
               <div>
                 <a href="#">
                   <span className="fas fa-facebook-f"></span>
@@ -68,7 +68,7 @@ const Layout = ({ children }) => {
           </div>
         </div>
       </footer>
-      © {new Date().getFullYear()}, All Rights Reserved. Dabbas Psychiatry Clinic
+      © {new Date().getFullYear()}, All Rights Reserved. Modern Day Clinic
           {` `}
     </>
   )
